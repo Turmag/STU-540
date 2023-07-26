@@ -1,0 +1,9 @@
+{
+    "name": "STU-540",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "deploy": "scp -r * u1296340@31.31.196.240:./www/focusinfo.ru/STU-540"
+    }
+}
