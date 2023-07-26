@@ -1,0 +1,72 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    background: linear-gradient(312deg, #364960, #81848c);
+}
+button {
+    background: linear-gradient(45deg, #1e1e1e, transparent);
+    border: 1px solid #4c4c4c;
+    filter: drop-shadow(0 2px 2px #2e2e2e);
+    padding: 5px 10px;
+    color: #d9d9d9;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 3px;
+}
+table,
+td,
+tr {
+    border: 0;
+}
+td {
+    width: 16.6667%;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.r {
+    text-align: right;
+    color: #e0e0e0;
+    font-size: 12px;
+    font-family: monospace;
+}
+#app {
+    max-width: 630px;
+    background: #fff;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 15px;
+    filter: drop-shadow(0 4px 6px #00000077);
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(45deg, #111, #3d3d3d);
+    color: #848484;
+    font-size: 12px;
+}
+#appcont {
+    position: relative;
+    zoom: 0.6;
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
+}
+#radd {
+    margin: 8px;
+}
+#wlogo {
+    margin: 14px;
+    filter: invert(1);
+    opacity: 0.5;
+}
+#ssvvgg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+canvas {
+    border: 1px solid #3b3b3b;
+}
